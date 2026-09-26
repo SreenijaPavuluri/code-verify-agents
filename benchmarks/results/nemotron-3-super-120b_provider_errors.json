@@ -1,0 +1,14 @@
+{
+  "note": "Transient provider errors absorbed by ChatClient retry/backoff + model fallback during the nemotron-3-super-120b run (2026-09-25). Counts were tallied from that run's JSON event log (event=llm_error) before the log file was accidentally truncated by an earlier version of --report-only (since fixed); the raw log is therefore not committed. No task failed because of these errors.",
+  "total_transient_errors": 41,
+  "by_model_and_type": {
+    "nvidia/nemotron-3-super-120b-a12b:free / upstream overloaded": 15,
+    "nvidia/nemotron-3-super-120b-a12b:free / 404 provider error": 12,
+    "google/gemma-4-31b-it:free / 429 rate limited": 12,
+    "qwen/qwen3.8-27b:free / 429 rate limited": 2
+  },
+  "successful_calls_by_model": {
+    "nvidia/nemotron-3-super-120b-a12b:free": 16,
+    "qwen/qwen3.8-27b:free": 4
+  }
+}

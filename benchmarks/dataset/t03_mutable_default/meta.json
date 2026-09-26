@@ -1,0 +1,6 @@
+{
+  "task_id": "t03_mutable_default",
+  "category": "mutable-default",
+  "difficulty": "easy",
+  "description": "add_tag(tag, tags=None) appends tag to the given list (or a NEW list when omitted) and returns it."
+}

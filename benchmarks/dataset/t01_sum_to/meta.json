@@ -1,0 +1,6 @@
+{
+  "task_id": "t01_sum_to",
+  "category": "off-by-one",
+  "difficulty": "easy",
+  "description": "sum_to(n) returns 1 + 2 + ... + n (inclusive). sum_to(0) is 0."
+}

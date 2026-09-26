@@ -1,0 +1,6 @@
+{
+  "task_id": "t16_rotate",
+  "category": "modular-arithmetic",
+  "difficulty": "medium",
+  "description": "rotate_right(xs, k) returns a new list rotated right by k positions; k may exceed len(xs); empty list stays empty."
+}

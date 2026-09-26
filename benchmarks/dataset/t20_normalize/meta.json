@@ -1,0 +1,6 @@
+{
+  "task_id": "t20_normalize",
+  "category": "multi-bug",
+  "difficulty": "hard",
+  "description": "normalize(xs) min-max scales numbers to [0, 1]: (x - min) / (max - min). If all values are equal, return a list of 0.0 of the same length. Empty input returns []."
+}

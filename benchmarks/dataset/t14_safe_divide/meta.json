@@ -1,0 +1,6 @@
+{
+  "task_id": "t14_safe_divide",
+  "category": "exception-handling",
+  "difficulty": "medium",
+  "description": "safe_divide(a, b) returns a / b, returns None when b == 0, and lets TypeError propagate for non-numeric inputs."
+}

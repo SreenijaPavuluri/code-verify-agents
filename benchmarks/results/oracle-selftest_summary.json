@@ -1,0 +1,69 @@
+{
+  "settings": {
+    "provider": "scripted",
+    "model": "oracle",
+    "fallback_models": [
+      "google/gemma-4-31b-it:free",
+      "qwen/qwen3.8-27b:free"
+    ],
+    "temperature": 0.0,
+    "llm_timeout_s": 120.0,
+    "llm_max_retries": 3,
+    "max_output_tokens": 4096,
+    "planner_mode": "rules",
+    "inspector_llm": false,
+    "max_patch_attempts": 3,
+    "max_graph_steps": 24,
+    "max_structured_repairs": 2,
+    "require_human_review": false,
+    "sandbox_backend": "subprocess",
+    "sandbox_timeout_s": 10.0,
+    "sandbox_memory_mb": 512,
+    "docker_image": "python:3.11-slim"
+  },
+  "summary": {
+    "n_tasks": 20,
+    "pass_at_1": 1.0,
+    "first_attempt_pass_at_1": 1.0,
+    "self_correction_lift": 0.0,
+    "visible_pass_rate": 1.0,
+    "overfit_rate": 0.0,
+    "avg_tool_calls": 6.0,
+    "tool_call_success_rate": 1.0,
+    "avg_llm_calls": 1.0,
+    "avg_input_tokens": 250.7,
+    "avg_output_tokens": 33.8,
+    "structured_output_repairs": 0,
+    "plan_adherence": 1.0,
+    "loop_convergence_rate": 1.0,
+    "avg_iterations_to_converge": 1,
+    "budget_terminations": 0,
+    "unbounded_loops": 0,
+    "latency_ms": {
+      "mean": 300.48,
+      "p50": 147.31,
+      "p95": 348.06
+    },
+    "llm_failures": 0,
+    "n_evaluated": 20,
+    "pass_at_1_evaluated": 1.0,
+    "first_attempt_pass_at_1_evaluated": 1.0,
+    "models_served": {
+      "scripted": 20
+    },
+    "by_difficulty": {
+      "easy": {
+        "n": 9,
+        "pass_at_1": 1.0
+      },
+      "hard": {
+        "n": 2,
+        "pass_at_1": 1.0
+      },
+      "medium": {
+        "n": 9,
+        "pass_at_1": 1.0
+      }
+    }
+  }
+}

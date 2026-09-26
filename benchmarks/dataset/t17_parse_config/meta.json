@@ -1,0 +1,6 @@
+{
+  "task_id": "t17_parse_config",
+  "category": "parsing",
+  "difficulty": "medium",
+  "description": "parse_config(text) parses 'key = value' lines into a dict. Whitespace around keys/values is stripped, blank lines and lines starting with '#' are ignored, and values may themselves contain '='."
+}

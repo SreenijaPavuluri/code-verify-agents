@@ -1,0 +1,6 @@
+{
+  "task_id": "t07_word_count",
+  "category": "accumulator",
+  "difficulty": "easy",
+  "description": "word_count(text) returns a dict mapping each lowercase word (split on whitespace) to its number of occurrences."
+}

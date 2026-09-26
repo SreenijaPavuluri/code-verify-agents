@@ -1,0 +1,6 @@
+{
+  "task_id": "t09_late_binding",
+  "category": "closure",
+  "difficulty": "hard",
+  "description": "make_multipliers(n) returns a list of n functions where the i-th function multiplies its argument by i."
+}

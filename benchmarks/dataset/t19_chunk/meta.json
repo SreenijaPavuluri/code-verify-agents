@@ -1,0 +1,6 @@
+{
+  "task_id": "t19_chunk",
+  "category": "slicing",
+  "difficulty": "easy",
+  "description": "chunk(xs, size) splits xs into consecutive lists of length size (the last may be shorter)."
+}

@@ -1,0 +1,6 @@
+{
+  "task_id": "t15_syntax_max",
+  "category": "syntax-error",
+  "difficulty": "easy",
+  "description": "max_of(xs) returns the largest element of a list; raises ValueError on an empty list."
+}

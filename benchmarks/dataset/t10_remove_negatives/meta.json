@@ -1,0 +1,6 @@
+{
+  "task_id": "t10_remove_negatives",
+  "category": "mutate-while-iterating",
+  "difficulty": "medium",
+  "description": "remove_negatives(xs) returns a new list with all negative numbers removed, preserving order; xs is not modified."
+}

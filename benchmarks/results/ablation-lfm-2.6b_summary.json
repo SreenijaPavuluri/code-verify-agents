@@ -1,0 +1,65 @@
+{
+  "settings": {
+    "provider": "openrouter",
+    "model": "liquid/lfm-2.5-2.6b:free",
+    "fallback_models": [
+      "google/gemma-4-31b-it:free",
+      "qwen/qwen3.8-27b:free"
+    ],
+    "temperature": 0.0,
+    "llm_timeout_s": 120.0,
+    "llm_max_retries": 3,
+    "max_output_tokens": 4096,
+    "planner_mode": "rules",
+    "inspector_llm": false,
+    "max_patch_attempts": 3,
+    "max_graph_steps": 24,
+    "max_structured_repairs": 2,
+    "require_human_review": false,
+    "sandbox_backend": "subprocess",
+    "sandbox_timeout_s": 10.0,
+    "sandbox_memory_mb": 512,
+    "docker_image": "python:3.11-slim"
+  },
+  "summary": {
+    "n_tasks": 11,
+    "pass_at_1": 0.7273,
+    "first_attempt_pass_at_1": 0.3636,
+    "self_correction_lift": 0.3636,
+    "visible_pass_rate": 0.7273,
+    "overfit_rate": 0.0,
+    "avg_tool_calls": 5.45,
+    "tool_call_success_rate": 1.0,
+    "avg_llm_calls": 1.09,
+    "avg_input_tokens": 1562.3,
+    "avg_output_tokens": 4156.7,
+    "structured_output_repairs": 18,
+    "plan_adherence": 1.0,
+    "loop_convergence_rate": 0.7273,
+    "avg_iterations_to_converge": 1.5,
+    "budget_terminations": 0,
+    "unbounded_loops": 0,
+    "latency_ms": {
+      "mean": 29911.57,
+      "p50": 18500.21,
+      "p95": 67294.41
+    },
+    "llm_failures": 3,
+    "n_evaluated": 8,
+    "pass_at_1_evaluated": 1.0,
+    "first_attempt_pass_at_1_evaluated": 0.5,
+    "models_served": {
+      "liquid/lfm-2.5-2.6b:free": 12
+    },
+    "by_difficulty": {
+      "hard": {
+        "n": 2,
+        "pass_at_1": 0.5
+      },
+      "medium": {
+        "n": 9,
+        "pass_at_1": 0.7778
+      }
+    }
+  }
+}

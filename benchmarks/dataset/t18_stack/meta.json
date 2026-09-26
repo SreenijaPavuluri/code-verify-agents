@@ -1,0 +1,6 @@
+{
+  "task_id": "t18_stack",
+  "category": "class-state",
+  "difficulty": "easy",
+  "description": "Stack supports push(x), pop() and peek() (top element without removing). pop()/peek() on an empty stack raise IndexError."
+}

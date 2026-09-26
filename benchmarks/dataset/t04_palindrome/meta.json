@@ -1,0 +1,6 @@
+{
+  "task_id": "t04_palindrome",
+  "category": "string-logic",
+  "difficulty": "easy",
+  "description": "is_palindrome(s) is True if s reads the same backwards, ignoring case and non-alphanumeric characters."
+}

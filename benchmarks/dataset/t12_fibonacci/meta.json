@@ -1,0 +1,6 @@
+{
+  "task_id": "t12_fibonacci",
+  "category": "base-case",
+  "difficulty": "easy",
+  "description": "fib(n) returns the n-th Fibonacci number with fib(0) == 0 and fib(1) == 1. Must handle n up to 80 quickly."
+}

@@ -1,0 +1,6 @@
+{
+  "task_id": "t05_fizzbuzz",
+  "category": "branch-order",
+  "difficulty": "easy",
+  "description": "fizzbuzz(n) returns 'FizzBuzz' if n divisible by 15, 'Fizz' if by 3, 'Buzz' if by 5, else str(n)."
+}

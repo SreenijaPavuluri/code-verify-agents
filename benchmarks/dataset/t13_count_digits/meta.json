@@ -1,0 +1,6 @@
+{
+  "task_id": "t13_count_digits",
+  "category": "infinite-loop",
+  "difficulty": "medium",
+  "description": "count_digits(n) returns the number of decimal digits in the integer n (sign ignored); count_digits(0) == 1."
+}

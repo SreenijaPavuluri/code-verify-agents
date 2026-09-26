@@ -1,0 +1,6 @@
+{
+  "task_id": "t08_flatten",
+  "category": "recursion",
+  "difficulty": "medium",
+  "description": "flatten(xs) flattens arbitrarily nested lists into a single flat list, preserving order."
+}

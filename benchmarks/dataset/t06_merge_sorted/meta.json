@@ -1,0 +1,6 @@
+{
+  "task_id": "t06_merge_sorted",
+  "category": "missing-tail",
+  "difficulty": "medium",
+  "description": "merge_sorted(a, b) merges two ascending lists into one ascending list containing all elements."
+}

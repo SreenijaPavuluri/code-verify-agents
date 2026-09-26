@@ -1,0 +1,6 @@
+{
+  "task_id": "t02_binary_search",
+  "category": "boundary",
+  "difficulty": "medium",
+  "description": "binary_search(a, x) returns the index of x in sorted list a, or -1 if absent."
+}
